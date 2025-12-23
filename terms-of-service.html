@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - AccelMail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar to match theme */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1; 
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8; 
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        accel: {
+                            blue: '#1d4ed8', /* blue-700 roughly */
+                            dark: '#0f172a', /* slate-900 */
+                            light: '#f8fafc', /* slate-50 */
+                            teal: '#0d9488',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-200 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img class="h-12 w-auto" src="https://img1.wsimg.com/isteam/ip/0815fdc9-aafc-4fe1-99f8-dedc9ba0e23b/blob-f3ca1db.png/:/rs=w:331,h:400,cg:true,m/cr=w:331,h:400/qt=q:95" alt="Accel Analysis Logo">
+                    <div class="hidden md:block">
+                        <span class="block text-xl font-bold text-slate-900 leading-none">AccelMail</span>
+                        <span class="block text-xs text-slate-500 font-medium uppercase tracking-wider">Powered by Accel Analysis</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="AccelMail Christmas Article.html" class="text-slate-600 hover:text-blue-700 font-medium transition-colors">Home</a>
+                    <a href="#" class="text-slate-600 hover:text-blue-700 font-medium transition-colors">Build</a>
+                    <a href="#" class="text-slate-600 hover:text-blue-700 font-medium transition-colors">Launch</a>
+                    <a href="#" class="text-slate-600 hover:text-blue-700 font-medium transition-colors">Track</a>
+                </div>
+                <div>
+                    <a href="https://accelmail2.accelanalysis.com" target="_blank" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-blue-700/20 transition-all hover:scale-105 flex items-center gap-2">
+                        <span>Get Started</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-12">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-extrabold text-slate-900 mb-4">Terms of Service</h1>
+            <p class="text-slate-600 mb-2">Effective Date: December, 20, 2025</p>
+            <p class="text-slate-600 mb-8">Last Updated: December, 20, 2025</p>
+            <p class="text-slate-700 mb-8">These Terms of Service (“Terms”) govern access to and use of the AccelMail platform and related services (the “Services”), operated by Accel Analysis, LLC (doing business as “AccelMail”) (“AccelMail,” “we,” “us,” or “our”). By creating an account, accessing, or using the Services, you agree to these Terms.</p>
+            <p class="text-slate-700 mb-8">If you are using the Services on behalf of a company or other entity, you represent you have authority to bind that entity, and “you” refers to that entity.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">1) Definitions</h2>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li><strong>Account:</strong> A registered user profile enabling access to the Services.</li>
+                <li><strong>Campaign:</strong> A configured outreach effort (e.g., direct mail drop, QR mailer, cadence, audience selection).</li>
+                <li><strong>Content:</strong> Materials you submit, upload, or create through the Services (including lists, creative files, logos, text, images, offers, URLs, QR destinations, and campaign settings).</li>
+                <li><strong>Recipient Data:</strong> Contact and address data or other information about prospects/recipients that you upload or provide to fulfill a Campaign.</li>
+                <li><strong>Order:</strong> A request to print, prepare, or mail materials, or purchase subscription/credits/add-ons.</li>
+                <li><strong>QR Tracking:</strong> Collection of event data when a QR code is scanned or visited (e.g., timestamp, approximate location, device/browser data).</li>
+                <li><strong>Subscription:</strong> A recurring paid plan.</li>
+                <li><strong>Third-Party Providers:</strong> Vendors that help deliver the Services (e.g., payment processors, hosting, analytics, customer support tools, email delivery, mapping/geo services).</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">2) Eligibility</h2>
+            <p class="text-slate-700 mb-8">You must be at least 18 years old (or the age of majority in your jurisdiction) and able to form a binding contract. The Services are intended for business/commercial use unless we explicitly agree otherwise.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">3) The Services (What We Provide)</h2>
+            <p class="text-slate-700 mb-8">AccelMail provides tools that may include:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Audience/list upload and management (including segmentation and filtering tools)</li>
+                <li>Campaign planning and scheduling</li>
+                <li>QR code generation, hosting, and tracking analytics</li>
+                <li>Templates and/or creative collaboration tools (optional)</li>
+                <li>Printing and mailing coordination (where offered)</li>
+                <li>Integrations (e.g., spreadsheets, CRM, email/calendar tools) (where offered)</li>
+            </ul>
+            <p class="text-slate-700 mb-4"><strong>No Guaranteed Results.</strong> We do not guarantee sales, leads, conversion rates, delivery dates, USPS processing times, or campaign performance.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">4) Account Registration and Security</h2>
+            <p class="text-slate-700 mb-8">You agree to provide accurate information and keep it updated. You are responsible for:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Maintaining the confidentiality of credentials</li>
+                <li>All activities that occur under your Account</li>
+                <li>Not sharing access except as allowed by your plan or written permission from us</li>
+            </ul>
+            <p class="text-slate-700 mb-8">Notify us immediately of any suspected unauthorized access.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">5) Your Responsibilities (Compliance + Data Rights)</h2>
+            <p class="text-slate-700 mb-8">You are responsible for:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Lawful marketing use. Ensuring your Campaigns comply with all applicable laws and regulations (including advertising, consumer protection, privacy, and any industry rules).</li>
+                <li>Recipient Data authority. You represent and warrant you have the legal right to collect, use, upload, and share Recipient Data for the Campaign(s) you run.</li>
+                <li>Truthful content. Ensuring claims, offers, pricing, and disclosures are accurate and not misleading.</li>
+                <li>Suppression lists / opt-outs (if applicable). If you use email/SMS features (if offered), you agree to comply with CAN-SPAM, TCPA, and similar laws.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">6) Prohibited Uses</h2>
+            <p class="text-slate-700 mb-8">You may not use the Services to:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Violate laws or third-party rights</li>
+                <li>Send or promote deceptive, fraudulent, or misleading content</li>
+                <li>Promote illegal products/services (or restricted categories where prohibited)</li>
+                <li>Infringe IP rights (copyrights, trademarks, publicity rights)</li>
+                <li>Upload malware or attempt to interfere with security or operations</li>
+                <li>Scrape, reverse engineer, or abuse rate limits</li>
+                <li>Attempt to identify individuals from aggregated/anonymous analytics where prohibited</li>
+            </ul>
+            <p class="text-slate-700 mb-8">We may suspend or terminate Accounts for prohibited uses.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">7) Content Ownership and License</h2>
+            <p class="text-slate-700 mb-8">You own your Content (including creative and Recipient Data), as between you and us.</p>
+            <p class="text-slate-700 mb-8">You grant AccelMail a limited, worldwide, non-exclusive, royalty-free license to host, store, reproduce, transmit, display, and use your Content only to provide, maintain, and improve the Services, including fulfilling Orders and providing analytics.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">8) Recipient Data and List Quality</h2>
+            <p class="text-slate-700 mb-8">You acknowledge that list quality significantly affects results and deliverability. We may:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Flag obvious formatting issues</li>
+                <li>Require minimum data standards for mailing</li>
+                <li>Reject lists that appear unlawful, purchased from prohibited sources, or likely to cause harm or high complaint rates</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">9) Orders, Printing, and Mailing</h2>
+            <p class="text-slate-700 mb-8">If the Services include printing/mailing coordination:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li><strong>Production proofs.</strong> You are responsible for reviewing proofs/approvals (when provided). Once approved, changes may be treated as a new Order.</li>
+                <li><strong>Addressing and postage.</strong> Mailing processes may depend on USPS requirements and third-party workflows.</li>
+                <li><strong>Delivery windows.</strong> Delivery timing is an estimate only; USPS and third-party processes are outside our control.</li>
+                <li><strong>Returned/undeliverable.</strong> You may receive undeliverable/returned quantities; these do not automatically qualify for refunds.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">10) Pricing, Taxes, and Payment</h2>
+            <p class="text-slate-700 mb-8">You agree to pay all fees shown at checkout or in an Order form, including:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Subscription fees, usage fees, credits, add-ons</li>
+                <li>Printing and postage costs (if applicable)</li>
+                <li>Applicable taxes</li>
+            </ul>
+            <p class="text-slate-700 mb-8">We may use third-party payment processors. You authorize us (and our processors) to charge your payment method.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">11) Subscription Auto-Renewal and Cancellation</h2>
+            <p class="text-slate-700 mb-8">Subscriptions auto-renew unless cancelled before the renewal date.</p>
+            <p class="text-slate-700 mb-8">Cancellation stops future renewals; it does not retroactively refund already-paid periods unless required by law or explicitly stated in your plan.</p>
+            <p class="text-slate-700 mb-8">If your payment fails, we may retry charges and/or downgrade, pause, or suspend features until payment is resolved.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">12) Refund Policy (Template — Customize Carefully)</h2>
+            <p class="text-slate-700 mb-8">Unless otherwise stated in writing:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li><strong>Digital/subscription fees:</strong> Non-refundable once the billing period begins (except where required by law).</li>
+                <li><strong>Printing and postage:</strong> Non-refundable once production or mailing has started.</li>
+                <li><strong>Errors caused by us:</strong> If we confirm a material error solely caused by us (e.g., wrong QR destination generated by our system), we may, at our option, reprint/re-mail, issue credits, or provide a partial refund.</li>
+            </ul>
+            <p class="text-slate-700 mb-8">Chargebacks: If you initiate a chargeback without first contacting support to resolve the issue, we may suspend your Account.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">13) Free Trials / Beta Features</h2>
+            <p class="text-slate-700 mb-8">Trials and beta features may be offered “as is” and may be modified or discontinued at any time. Trial eligibility may be limited.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">14) Third-Party Services and Links</h2>
+            <p class="text-slate-700 mb-8">The Services may interoperate with third-party products (USPS tools, printers, CRMs, analytics, mapping tools, etc.). We are not responsible for third-party services, and your use of them is governed by their terms.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">15) Intellectual Property</h2>
+            <p class="text-slate-700 mb-8">We own the Services, including software, designs, interfaces, templates (unless marked as user-owned), and all related IP. You may not copy, modify, distribute, sell, lease, or create derivative works of the Services except as permitted.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">16) Feedback</h2>
+            <p class="text-slate-700 mb-8">If you provide suggestions or feedback, you grant us the right to use it without restriction or compensation.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">17) Confidentiality (Optional)</h2>
+            <p class="text-slate-700 mb-8">If you receive non-public information about our Services, pricing, roadmap, or operations, you agree to keep it confidential and use it only to evaluate or use the Services.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">18) Disclaimers</h2>
+            <p class="text-slate-700 mb-8">TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE.” WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, AND NON-INFRINGEMENT.</p>
+            <p class="text-slate-700 mb-8">We do not warrant that:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Campaigns will achieve any particular outcome</li>
+                <li>QR tracking will capture every scan (device/network/browser variability exists)</li>
+                <li>The Services will be uninterrupted or error-free</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">19) Limitation of Liability</h2>
+            <p class="text-slate-700 mb-8">TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>ACCELMAIL WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES.</li>
+                <li>OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICES WILL NOT EXCEED THE GREATER OF:</li>
+                <ul class="list-disc list-inside text-slate-700 mb-4 ml-6">
+                    <li>(A) THE AMOUNTS YOU PAID TO US IN THE 3 MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM, OR</li>
+                    <li>(B) $500.</li>
+                </ul>
+            </ul>
+            <p class="text-slate-700 mb-4">(Adjust these numbers to match your risk tolerance.)</p>
+            <p class="text-slate-700 mb-8">Some jurisdictions do not allow certain limitations, so some may not apply to you.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">20) Indemnification</h2>
+            <p class="text-slate-700 mb-8">You agree to defend, indemnify, and hold harmless AccelMail from claims arising out of:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>Your Content, Recipient Data, Campaigns, or offers</li>
+                <li>Your violation of law or third-party rights</li>
+                <li>Your misuse of the Services</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">21) Suspension and Termination</h2>
+            <p class="text-slate-700 mb-8">We may suspend or terminate access if:</p>
+            <ul class="list-disc list-inside text-slate-700 mb-8">
+                <li>You breach these Terms</li>
+                <li>Your use creates risk or legal exposure</li>
+                <li>Payment is delinquent</li>
+                <li>Required by law</li>
+            </ul>
+            <p class="text-slate-700 mb-8">You may stop using the Services at any time. Certain sections survive termination (e.g., fees owed, IP, disclaimers, limitation of liability, indemnification).</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">22) Dispute Resolution (Pick One Approach)</h2>
+            <p class="text-slate-700 mb-4"><strong>Option A: Arbitration Clause (Common in SaaS)</strong></p>
+            <p class="text-slate-700 mb-4">Disputes will be resolved by binding arbitration, with limited exceptions (e.g., small claims, IP injunction).</p>
+            <p class="text-slate-700 mb-4"><strong>Option B: Court Jurisdiction Only</strong></p>
+            <p class="text-slate-700 mb-8">Disputes will be resolved in state/federal courts located in [Your County/City, State].</p>
+            <p class="text-slate-700 mb-8">(You should have an attorney finalize this section; it can materially change your risk.)</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">23) Governing Law</h2>
+            <p class="text-slate-700 mb-8">These Terms are governed by the laws of the Commonwealth of Virginia, without regard to conflict-of-laws rules.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">24) Changes to These Terms</h2>
+            <p class="text-slate-700 mb-8">We may update these Terms from time to time. Material changes will be posted with an updated “Last Updated” date. Continued use after changes means you accept the updated Terms.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">25) Contact</h2>
+            <p class="text-slate-700 mb-4">Accel Analysis, LLC (d/b/a Accel Analysis Business Solutions)</p>
+            <p class="text-slate-700">Email: info@accelanalysis.com</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center gap-3">
+                    <img src="https://img1.wsimg.com/isteam/ip/0815fdc9-aafc-4fe1-99f8-dedc9ba0e23b/Moon%20logo.png" alt="Accel Moon Logo" class="h-10 w-auto opacity-80 hover:opacity-100 transition">
+                    <div>
+                        <span class="block text-slate-200 font-bold">Accel Analysis</span>
+                        <span class="text-xs">Business Solutions</span>
+                    </div>
+                </div>
+                <div class="flex gap-6 text-sm">
+                    <a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="hover:text-white transition">Terms of Service</a>
+                    <a href="https://accelmail2.accelanalysis.com" class="hover:text-white transition">Platform</a>
+                </div>
+                <div class="text-xs text-slate-500">
+                    &copy; 2025 Accel Analysis. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
